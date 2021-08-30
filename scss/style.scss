@@ -1,0 +1,49 @@
+@import "variables";
+
+
+.tipoDeAlojamiento {
+  height: $alto-alojamiento;
+  width: $ancho-alojamiento;
+  border-radius: 80%;
+}
+
+.noImagen {
+  background: none !important;
+  padding: 0px !important;
+}
+
+.busqueda {
+  text-align: $alineacion-texto;
+  /*box modeling*/
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 20px;
+  background-color: $color-clarito;
+}
+
+#registro {
+  padding-top: 100px;
+}
+
+.container{
+  &.registro {
+    text-align: $alineacion-texto;
+  }
+}
+
+.casillero {
+  max-width: 400px;
+  margin: auto;
+}
+
+.timeline {
+  .timeline-image {
+    width: $tamanio-timeline !important;
+    height: $tamanio-timeline !important;
+    text-align: $alineacion-texto;
+    border-color: $color-clarito;
+    background-color: #ffc800;
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Cargar alojamiento</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/logo.png"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+
+    <!-- SEO-->
+    <meta name="description"
+          content="Publica tu alojamiento en Green Life el sitio mas confiable de la web. Más de 3 mil ya usuarios publicaron su alojamiento y forman parte de nuestro sitio.">
+
+    <meta name="keywords"
+          content="hospedaje, alojamiento, cabañas, casa quinta, habitacion privada, mascotas, 1 habitación, 2 habitaciones, patio grande, río, lago, mar.">
+
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"> Green Life</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Tipos de alojamientos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html">Registrate</a></li>
+                <li class="nav-item"><a class="nav-link" href="./alojamiento.html">Alojamientos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./publicarAlojamiento.html">Publicar alojamiento</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead noImagen">
+</header>
+<div class="container registro">
+    <div id="registro">
+        <h1>CREAR UNA CUENTA PARA GESTIONAR TU ALOJAMIENTO</h1>
+        <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseDC" role="button" aria-expanded="false"
+               aria-controls="collapseDC">
+                Datos de contacto
+            </a>
+
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseCO" role="button" aria-expanded="false"
+               aria-controls="collapseDC">
+                Contraseña
+            </a>
+
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAL" role="button" aria-expanded="false"
+               aria-controls="collapseDC">
+                Datos del alojamiento
+            </a>
+        </p>
+        <div class="collapse in" id="collapseDC">
+            <div class="card card-body">
+                <h2>DATOS DEL CONTACTO</h2>
+                <div class="alojamiento casillero">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                               placeholder="Ingresá tu nombre y apellido">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                               placeholder="Ingresá tu dirección">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                               placeholder="Ingresá tu Código Postal">
+                    </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Prefijo</option>
+                        <option value="1">+54</option>
+                        <option value="2">+56</option>
+                        <option value="3">+58</option>
+                    </select>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                               placeholder="Ingresá tu número de teléfono">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Acepto términos y condiciones
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-success" class="borrar información">Borrar información</button>
+                    <button type="button" class="btn btn-warning" class="buscar">CONFIRMAR DATOS</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseCO">
+            <div class="card card-body">
+                <div class="contraseña">
+                    <h2>CONTRASEÑA</h2>
+                    <div class="casillero">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Ingresá tu contraseña">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Confirmar contraseña">
+                        </div>
+                        <button type="button" class="btn btn-warning" class="buscar">CONFIRMAR DATOS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseAL">
+            <div class="card card-body">
+                <div class="recuadro box">
+                    <h2>DATOS SOBRE TU ALOJAMIENTO</h2>
+                    <div class="casillero">
+                        <div class="buscador">
+                            <select class="form-select" aria-label="Default select example">
+                                <option value="alojamiento"> Tipo de alojamiento</option>
+                                <option value="completo"> Completo</option>
+                                <option value="privada"> Habitación privada</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                                <option value="tipo"> Aceptan mascotas</option>
+                                <option value="cabaña"> SI</option>
+                                <option value="casquinta"> NO</option>
+                            </select>
+                            <p>¿En qué otras páginas esta tu alojamiento?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    AirBnb
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Facebook
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Booking
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Otro
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Ingresá el nombre del alojamiento">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Ingresá la dirección del alojamiento">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Ingresá el precio en pesos">
+                        </div>
+                        <button type="button" class="btn btn-success" class="borrar información">CARGAR FOTOS</button>
+                        <button type="button" class="btn btn-warning" class="buscar">CONFIRMAR DATOS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
