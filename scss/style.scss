@@ -55,3 +55,9 @@
 #mainNav .navbar-nav .nav-item .nav-link{
   color: white !important;
 }
+
+.flex-wrap-xs{
+  @media (max-width: 768px){
+    flex-wrap: wrap;
+  }
+}
