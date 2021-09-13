@@ -37,8 +37,9 @@
     .timeline .timeline-image {
       display: none; } }
 
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: white !important; }
+@media (max-width: 768px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: white !important; } }
 
 @media (max-width: 768px) {
   .flex-wrap-xs {
