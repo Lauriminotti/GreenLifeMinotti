@@ -45,5 +45,13 @@
     text-align: $alineacion-texto;
     border-color: $color-clarito;
     background-color: #ffc800;
+
+    @media (max-width: 768px){
+      display: none;
+    }
   }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+  color: white !important;
 }
