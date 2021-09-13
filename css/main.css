@@ -33,3 +33,9 @@
   text-align: center;
   border-color: #FFEFE7;
   background-color: #ffc800; }
+  @media (max-width: 768px) {
+    .timeline .timeline-image {
+      display: none; } }
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: white !important; }
